@@ -1,13 +1,22 @@
 import React from 'react';
-import { linkTo } from '@storybook/addon-links';
-import { Welcome } from '@storybook/react/demo';
+import { storiesOf } from '@storybook/react';
 
-export default {
-  title: 'Wat zijn micro interacties',
-};
+import { Document, Page } from 'react-pdf';
+import { pdfjs } from 'react-pdf';
+import mi from "../static/mi.pdf";
 
-export const toStorybook = () => <Welcome showApp={linkTo('Button')} />;
 
-toStorybook.story = {
-  name: 'Wat is een mi',
-};
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+const number= 1;
+const number2= 2;
+const number3= 3;
+
+storiesOf('Mi', module)
+  .add('wat is een mi', () => (
+  <Document file={mi}>
+   <Page pageNumber={number} />
+    <Page pageNumber={number2} />
+     <Page pageNumber={number3} />
+        </Document>
+  ));
