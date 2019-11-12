@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/main.0e0a2e46769be4389e85.bundle.js",
+    "main.js.map": "/main.0e0a2e46769be4389e85.bundle.js.map",
+    "runtime~main.js": "/runtime~main.0e0a2e46769be4389e85.bundle.js",
+    "runtime~main.js.map": "/runtime~main.0e0a2e46769be4389e85.bundle.js.map",
+    "vendors~main.js": "/vendors~main.0e0a2e46769be4389e85.bundle.js",
+    "vendors~main.js.map": "/vendors~main.0e0a2e46769be4389e85.bundle.js.map",
+    "vendors~pdfjsWorker.js": "/vendors~pdfjsWorker.0e0a2e46769be4389e85.bundle.js",
+    "vendors~pdfjsWorker.js.map": "/vendors~pdfjsWorker.0e0a2e46769be4389e85.bundle.js.map",
+    "iframe.html": "/iframe.html",
+    "precache-manifest.f2cb2a4eeb89718c7b8fc134c6219456.js": "/precache-manifest.f2cb2a4eeb89718c7b8fc134c6219456.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/joop.jpeg": "/static/media/joop.0681907b.jpeg",
+    "static/media/joopfolio.png": "/static/media/joopfolio.66ed70c6.png",
+    "static/media/mi.pdf": "/static/media/mi.18006eb5.pdf"
+  },
+  "entrypoints": [
+    "runtime~main.0e0a2e46769be4389e85.bundle.js",
+    "vendors~main.0e0a2e46769be4389e85.bundle.js",
+    "main.0e0a2e46769be4389e85.bundle.js"
+  ]
+}
