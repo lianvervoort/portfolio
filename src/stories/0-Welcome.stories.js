@@ -22,8 +22,14 @@ const number10= 10;
 const number11= 11;
 
 storiesOf('Micro interacties', module)
+  .add('Video: Wat zijn micro interacties', () => (
+<iframe title="video" width="560" height="315" src="https://www.youtube.com/embed/GKabKII2IVA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  ));
+
+storiesOf('Micro interacties', module)
   .add('wat is een micro interactie', () => (
-  <Document file={mi}>
+      <Document file={mi}>
    <Page pageNumber={number} />
     <Page pageNumber={number2} />
      <Page pageNumber={number3} />
@@ -35,10 +41,12 @@ storiesOf('Micro interacties', module)
          <Page pageNumber={number9} />
          <Page pageNumber={number10} />
           <Page pageNumber={number11} />
-
         </Document>
 
   ));
+
+
+
 
   // .add('wat is een micro interactie', () => (
   //   <a href={midoc} download> Klik hier voor het gehele document </
